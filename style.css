@@ -5,7 +5,7 @@ body {
     height: 70vh;
     width: 100vw;
     background-attachment: fixed;
-    background: linear-gradient( RGBA(179, 58, 99, .9), RGBA(179, 58, 99, .9)), url("images/bord.jpg");
+    background: linear-gradient( RGBA(100, 58, 99, .9), RGBA(1, 58, 99, .9)), url("images/bord.jpg");
     background-position: bottom;
     background-size: cover;
     position: relative;
@@ -30,11 +30,39 @@ body {
 #main_header .main_header_text p {
     font-style: italic;
 }
+#headline h1 {
+    text-align: center;
 
+}
+#headline h2 { 
+    text-align: center;
+}
+#headline h2::before {
+    content: "_____";
+    position: relative;
+    bottom: 8px;
+    margin-right: 5px;
+}
+#headline h2::after {
+    content:"_____"; 
+    position: relative;
+    bottom: 8px;
+    margin-left: 5px;
+}
+
+
+.border {
+    display: block;
+    margin: auto;
+    width: 200px;
+    height: 3px;
+    background: #3498db;
+    margin-bottom: 40px;
+}
  
 
 #main_team {
-    margin-top: 400px;
+    margin-top: 250px;
 }
 .img1 {
     width:45%;
@@ -53,14 +81,16 @@ body {
 #main_social {
     background-color: rgb(185, 185, 185);
     text-align: center;
-    height:400px;
+    height:500px;
 }
 .social_text{
     padding-top: 40px;
 }
-
+.contact{
+    padding-top: 80px;
+}
  footer {
-     background-color: rgba(82, 116, 160, 0.664);
+     background-color: rgb(67, 147, 161);
  }
  #yukari{
     z-index:100;    
@@ -92,7 +122,8 @@ body {
     padding: 0;
     align-items: center;
     justify-content: center;
-    height: 30vh;
+    height: 50vh;
+    width: 100%;
   }
   
   i {

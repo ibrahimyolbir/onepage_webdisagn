@@ -44,8 +44,3 @@ $(document).ready(function(){
     });
 });
 
-$("#instagram").jqinstapics({
-  "user_id": "Your User ID",
-  "access_token": "Your Access Token",
-  "count": 5
-});
