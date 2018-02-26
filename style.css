@@ -1,14 +1,15 @@
 body {
     margin-top: -1%;
 }
+#myNavbar {color: white;}
 #main_header {
     height: 70vh;
     width: 100vw;
-    background-attachment: fixed;
     background: linear-gradient( RGBA(100, 58, 99, .9), RGBA(1, 58, 99, .9)), url("images/bord.jpg");
-    background-position: bottom;
+    background-position: center;
     background-size: cover;
     position: relative;
+    background-attachment: fixed;
 }
 
 #main_header .main_header_text {
@@ -122,7 +123,7 @@ body {
     padding: 0;
     align-items: center;
     justify-content: center;
-    height: 50vh;
+    height: 20vh;
     width: 100%;
   }
   
@@ -179,3 +180,8 @@ body {
     text-shadow: 0px 16px 10px rgba(0, 0, 0, 0.3);
     transform: translate(0, -8);
   }
+
+.footer_text {
+    text-align: center;
+    height: 10vh;
+}
